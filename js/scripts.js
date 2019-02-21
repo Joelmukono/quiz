@@ -1,7 +1,8 @@
 $(document).ready(function(){
   $("#myForm").submit(function(){
    var language = $("input:radio[name=language]:checked").val();
-   alert(language);
+   var keyword = $("input:radio[name=keyword]:checked").val();
+   alert(language+" "+keyword);
   });
 
 

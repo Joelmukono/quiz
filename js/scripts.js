@@ -6,20 +6,17 @@ $(document).ready(function(){
    var popUp = $("input:radio[name=popUp]:checked").val();
    var callFunction = $("input:radio[name=callFunction]:checked").val();
    var method = $("input:radio[name=method]:checked").val();
+   var reverse = $("input:radio[name=reverse:checked]").val();
+   var statement = $("input:radio[name=statement:checked]").val();
 
-
-   if(language=="undefined"&& keyword=="undefined" ){
-
-   }
-   else if (language == "scripting" && keyword == "var" && tag == "script" && popUp =="alert()"){
-     alert("correct");
+   if (language == "scripting" && keyword == "var" && tag == "script" && popUp =="alert()" && callFunction=="function()" && method == "pop()" && reverse == "reverse()" && statement == "if()"){
+       alert("correct");
 
     }
-
    else{
      alert("wrong");
    }
-   var points=0;
+
 
 
   });

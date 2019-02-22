@@ -1,3 +1,14 @@
+body{
+  padding:50px;
+  background-color:#D3D3D3;
+}
+.row{
+  overflow:hidden;
+}
+.navbar{
+  background:
+}
+
 .question1{
   padding:10px;
 
@@ -13,4 +24,17 @@
 }
 .inpadding{
   padding: 10px;
+  border-radius: 25px;
+  background: grey;
+  color:white;
+  font-family: 'Varela Round', sans-serif;
+}
+.back{
+  padding-top:10px;
+}
+h3{
+  font-family: 'Staatliches', cursive;
+}
+h5{
+  font-family: 'Staatliches', cursive;
 }

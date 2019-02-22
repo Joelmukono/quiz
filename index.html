@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Varela+Round|ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>Quiz</title>
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <h5 class="navbar-brand"> Javascript Quiz</h5>
+    </nav>
     <div class="container">
     <form id="myForm">
       <div class="col-md-6">
       <div class="question1">
         <h3>1.what type of language is javascript?</h3>
         <div class="inpadding">
-        <input type="radio" class="form-check-input" name="language" value="markup">Markup<br>
+        <input type="radio" name="language" value="markup">Markup<br>
         <input type="radio" name="language" value="programming">programming<br>
         <input type="radio" name="language" value="scripting"> scripting
         </div>
@@ -47,12 +51,13 @@
       </div>
 
       <div class="col-md-6">
+        <div class="back">
       <div class="question5">
-        <h3>4.Whow is an alert box written in javascript?</h3>
+        <h3>4.How do you call a function?</h3>
         <div class="inpadding">
-        <input type="radio" name="popUp" value="alert">alert()<br>
-        <input type="radio" name="popUp" value="show">show()<br>
-        <input type="radio" name="popUp" value="display">display()
+        <input type="radio" name="callFunction" value="function()">function()<br>
+        <input type="radio" name="callFunction" value="call">call function()<br>
+        <input type="radio" name="callFunction" value="add">add function()
         </div>
       </div>
 
@@ -80,6 +85,7 @@
         <input type="radio" name="popUp" value="alert">alert()<br>
         <input type="radio" name="popUp" value="show">show()<br>
         <input type="radio" name="popUp" value="display">display()
+        </div>
         </div>
       </div>
       </div>

@@ -19,6 +19,34 @@ $(document).ready(function(){
 
          alert("you got all correct");
 
+   }else if(language != answers[0] && keyword == answers[1] &&
+           tag == answers[2] && popUp == answers[3] &&
+           callFunction == answers[4] && method == answers[5] && back == answers[6]  &&
+           statement == answers[7]){
+
+              alert("you got 7 correct")
+
+   }else if(language == answers[0] && keyword != answers[1] &&
+           tag == answers[2] && popUp == answers[3] &&
+           callFunction == answers[4] && method == answers[5] && back == answers[6]  &&
+           statement == answers[7]){
+
+              alert("you got 7 correct")
+
+   }else if(language == answers[0] && keyword == answers[1] &&
+            tag != answers[2] && popUp == answers[3] &&
+            callFunction == answers[4] && method == answers[5] && back == answers[6]  &&
+            statement == answers[7]){
+
+              alert("you got 7 correct")
+
+   }else if(language == answers[0] && keyword == answers[1] &&
+            tag == answers[2] && popUp != answers[3] &&
+            callFunction == answers[4] && method == answers[5] && back == answers[6]  &&
+            statement == answers[7]){
+
+              alert("you got 7 correct")
+
    }
 
 

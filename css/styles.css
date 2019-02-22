@@ -1,6 +1,6 @@
 body{
   padding:50px;
-  background-color:#D3D3D3;
+  background-color:#ADD8E6;
 }
 .row{
   overflow:hidden;
@@ -25,7 +25,7 @@ body{
 .inpadding{
   padding: 10px;
   border-radius: 25px;
-  background: grey;
+  background: #6c8790;
   color:white;
   font-family: 'Varela Round', sans-serif;
 }
@@ -37,4 +37,19 @@ h3{
 }
 h5{
   font-family: 'Staatliches', cursive;
+}
+.navbar{
+  background-color: #7c9ba5;
+  color:white;
+}
+.navbar-default .navbar-brand{
+  color:white;
+}
+
+.submitButton input{
+  width:100%;
+  border:none;
+  padding:10px;
+  font-family: 'Staatliches', cursive;
+
 }

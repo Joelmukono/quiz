@@ -4,6 +4,7 @@ $(document).ready(function(){
    var keyword = $("input:radio[name=keyword]:checked").val();
    var tag = $("input:radio[name=tag]:checked").val();
    var popUp = $("input:radio[name=popUp]:checked").val();
+   var callFunction = $("input:radio[name=callFunction]:checked").val();
    var method = $("input:radio[name=method]:checked").val();
 
 

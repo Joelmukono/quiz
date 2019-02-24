@@ -12,12 +12,7 @@ $(document).ready(function(){
    var score = 0;
    var answers=["scripting","var","script","alert","function","pop","reverse","if"];
 
-   //if(language == answers[0]){
-       //alert(score+=2);
-
-   //}else if(language != answers[0]){
-        //alert(score=0);
-   //}
+  
    var inputs=[language,keyword,tag,popUp,callFunction,method,back,statement];
 
    inputs.forEach(function(elements){

@@ -22,6 +22,9 @@ $(document).ready(function(){
 
    inputs.forEach(function(elements){
      answers.forEach(function(elements2){
+       if(elements == elements2 ){
+         
+       }
 
      });
 

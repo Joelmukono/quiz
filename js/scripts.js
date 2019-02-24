@@ -24,6 +24,7 @@ $(document).ready(function(){
      answers.forEach(function(elements2){
        if(elements == elements2 ){
          score+=1;
+         document.getElementById('score1').innerHTML= "You scored " + score+ " points";
        }
 
      });

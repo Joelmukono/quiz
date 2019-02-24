@@ -20,6 +20,9 @@ $(document).ready(function(){
    //}
    var inputs=[language,keyword,tag,popUp,callFunction,method,back,statement];
 
+   inputs.forEach(function(elements){
+
+   });
 
    });
 

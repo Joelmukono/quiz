@@ -12,16 +12,18 @@ $(document).ready(function(){
    var score = 0;
    var answers=["scripting","var","script","alert","function","pop","reverse","if"];
 
-  
+
    var inputs=[language,keyword,tag,popUp,callFunction,method,back,statement];
 
    inputs.forEach(function(elements){
      answers.forEach(function(elements2){
-       if(elements == elements2 ){
+       if(elements == elements2){
          score+=1;
-         document.getElementById('score1').innerHTML= "You scored " + score+ " points";
+          document.getElementById('score1').innerHTML= "You scored " + score+ " points";
+       }else if(elements == undefined){
+          document.getElementById('score1').innerHTML= "Select all options";
        }else if(elements != elements2){
-         document.getElementById('score1').innerHTML= "You scored " +0+ " points";
+         document.getElementById('score1').innerHTML= "You scored " + 0+ " points";
        }
 
      });

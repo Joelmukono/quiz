@@ -1,5 +1,5 @@
 body{
-  padding:50px;
+  padding:70px;
   background-color:#ADD8E6;
 }
 .row{
@@ -53,6 +53,10 @@ h5{
 
 }
 .showScore{
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+}
+.Call{
   font-family: 'Staatliches', cursive;
   font-size: 30px;
 }

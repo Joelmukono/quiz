@@ -25,6 +25,8 @@ $(document).ready(function(){
        if(elements == elements2 ){
          score+=1;
          document.getElementById('score1').innerHTML= "You scored " + score+ " points";
+       }else if(elements != elements2){
+         document.getElementById('score1').innerHTML= "You scored " +0+ " points";
        }
 
      });

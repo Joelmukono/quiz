@@ -24,6 +24,19 @@
  
     create pull request.
 
+## BDD
+#### here are the specs
+     Get input from user, choices.
+     
+     Add array for quiz inputs and answers.
+     
+     Loop through arrays with forEach() method.
+     
+     Add condition to check if answers are equal to radio input values.
+     
+     Condition to check if input values are undefined.
+     
+     Condition to check if points add upto zero.
 
 
 

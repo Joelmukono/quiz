@@ -8,7 +8,7 @@
 
 ## Setup instructions.
 
-#### Follow the steps below to install and run this version of Triangle-Tracker on your local machine
+#### Follow the steps below to install and run this version of Quiz Board on your local machine
     
     go to https://github.com/Joelmukono/quiz.
  
